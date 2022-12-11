@@ -1,16 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.328ab46b.js",
+    "main.css": "/static/css/main.34216a8b.css",
+    "main.js": "/static/js/main.f1214f56.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/Co-Schedule.png": "/static/media/Co-Schedule.c1cfcdf4937ea39753c9.png",
+    "static/media/Email_Trap.png": "/static/media/Email_Trap.6d6b871fbc684da20b5e.png",
+    "static/media/Pankaj_Singh_Resume.pdf": "/static/media/Pankaj_Singh_Resume.d26fe387e32531261083.pdf",
+    "static/media/idea.png": "/static/media/idea.8d36763635bf27a94d4e.png",
+    "static/media/man.png": "/static/media/man.5b6adb8e38ee506fde52.png",
+    "static/media/contact.png": "/static/media/contact.986eb24a5958ed5adc1e.png",
+    "static/media/resume.png": "/static/media/resume.60c4f53d340d7c84130f.png",
+    "static/media/pencil.png": "/static/media/pencil.babeb98220b2804ec0be.png",
+    "static/media/house (1).png": "/static/media/house (1).640d0b1e39b36fd2550c.png",
     "index.html": "/index.html",
-    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.328ab46b.js.map": "/static/js/main.328ab46b.js.map",
+    "main.34216a8b.css.map": "/static/css/main.34216a8b.css.map",
+    "main.f1214f56.js.map": "/static/js/main.f1214f56.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.328ab46b.js"
+    "static/css/main.34216a8b.css",
+    "static/js/main.f1214f56.js"
   ]
 }
