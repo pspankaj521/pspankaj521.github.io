@@ -24,7 +24,7 @@ export default function Skills() {
 
       <h1 className='skillDes'>Frontend</h1>
 
-      <div className='haba'>
+      <div className='main_div'>
 
         <motion.div initial='hidden' whileInView='visible' variants={slidetop} >
           <img src="https://cdn-icons-png.flaticon.com/512/1199/1199124.png" alt="javascript logo" />
@@ -43,7 +43,7 @@ export default function Skills() {
       </div>
 
       <h1 className='skillDes'>Backend</h1>
-      <div className='haba haba1' style={{ width: '34%', gap: '5vw', margin: 'auto' }}>
+      <div className='main_div child_1' style={{ width: '34%', gap: '5vw', margin: 'auto' }}>
         <motion.div initial='hidden' whileInView='visible' variants={slidetop} ><img src="https://cdn-icons-png.flaticon.com/512/919/919825.png" alt="nodeJS logo" />
           <h4>NodeJS </h4></motion.div>
         <motion.div initial='hidden' whileInView='visible' variants={slidetop} ><img height='80px' src="https://th.bing.com/th/id/OIP.1fZjQpkRMKTBGN_7H5YnFwHaGL?pid=ImgDet&rs=1" alt="express logo" />
@@ -53,7 +53,7 @@ export default function Skills() {
       </div>
 
       <h1 className='skillDes'> <span className='name1'>Tools</span> I use</h1>
-      <div className='haba haba1' style={{ width: '34%', gap: '5vw', margin: 'auto' }}>
+      <div className='main_div child_1' style={{ width: '34%', gap: '5vw', margin: 'auto' }}>
         <motion.div initial='hidden' whileInView='visible' variants={slidetop} ><img src="https://cdn-icons-png.flaticon.com/512/906/906324.png" alt="vscode logo" />
           <h4>VS Code </h4></motion.div>
         <motion.div initial='hidden' whileInView='visible' variants={slidetop} ><img src="https://cdn-icons-png.flaticon.com/512/4926/4926624.png" alt="github logo" />

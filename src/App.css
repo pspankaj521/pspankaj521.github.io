@@ -360,7 +360,7 @@ font-family:cursive;
   /* background-color: #0a0416; */
 }
 
-.haba{
+.main_div{
   display: grid;
   grid-template-columns: repeat(4,1fr);
   width: 50%;
@@ -372,7 +372,7 @@ font-family:cursive;
   backdrop-filter: blur(10px);
 }
 
-.haba1{
+.child_1{
   display: grid;
   grid-template-columns: repeat(3,1fr);
   width: 60%;
@@ -384,7 +384,7 @@ font-family:cursive;
   backdrop-filter: blur(10px);
 }
 
-.haba>div>img{
+.main_div>div>img{
   width: 80px;
   padding: 10px;
   background-color: rgba(255, 255, 255, 0.797);
@@ -398,7 +398,7 @@ font-family:cursive;
 
 @media screen and (max-width: 1250px) {
 
-  .haba1{
+  .child_1{
     grid-template-columns: repeat(2,1fr);
   }
 
@@ -406,29 +406,29 @@ font-family:cursive;
 
 @media screen and (max-width: 900px) {
 
-  .haba{
+  .main_div{
     margin: auto;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     align-items: center;
   }
 
-  .haba1{
+  .child_1{
     grid-template-columns: repeat(1,1fr);
   }
-  .haba>img{
+  .main_div>img{
     width: 50px;
   }
 
 }
 
-.haba>div{
+.main_div>div{
   position: relative;
   bottom: 0;
   transition: all 0.3s ;
 }
 
-.haba>div:hover{
+.main_div>div:hover{
   bottom: 10px;
 }
 

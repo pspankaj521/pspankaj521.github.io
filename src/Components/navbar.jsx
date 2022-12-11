@@ -41,19 +41,20 @@ export default function Navbar() {
           </h2>
         </div>
 
-        <div className="icons">
-          <img width="20px" height="20px" src={skills} alt="resume logo" />
-          <h2>
-            <Link smooth to="#skills" className="link">
-              Skills
-            </Link>
-          </h2>
-        </div>
+        
         <div className="icons">
           <img width="20px" height="20px" src={project} alt="resume logo" />
           <h2>
             <Link smooth to="#project" className="link">
               Project
+            </Link>
+          </h2>
+        </div>
+        <div className="icons">
+          <img width="20px" height="20px" src={skills} alt="resume logo" />
+          <h2>
+            <Link smooth to="#skills" className="link">
+              Skills
             </Link>
           </h2>
         </div>
