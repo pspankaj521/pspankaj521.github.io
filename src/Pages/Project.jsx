@@ -1,6 +1,6 @@
 import React from 'react'
 import Co_Schedule from "../Images/Co-Schedule.png"
-// import geek from "../images/Geek-Buying.png";
+import RPSN from "../Images/R.P.S.N_Vacation.png"
 import Email_Trap from "../Images/Email_Trap.png"
 import { motion } from 'framer-motion'
 
@@ -74,8 +74,7 @@ export default function Project() {
             <div className='techStack'>
               <img src="https://cdn-icons-png.flaticon.com/512/1199/1199124.png" alt="" />
               <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="" />
-              {/* <img src="https://cdn-icons-png.flaticon.com/512/3334/3334886.png" alt="" /> */}
-              {/* <img src="https://cdn-icons-png.flaticon.com/512/919/919825.png" alt="" /> */}
+             
               <img src="https://cdn-icons-png.flaticon.com/512/1051/1051277.png" alt="" />
             </div>
           </div>
@@ -96,32 +95,34 @@ export default function Project() {
     
 
 
-      {/* <motion.div initial='hidden' whileInView='visible' variants={slideLeft} >
-        <div className='p1'> */}
+      <motion.div initial='hidden' whileInView='visible' variants={slideLeft} >
+        <div className='p1'> 
 
-          {/* <div>
-            <img src={rel} alt="Boat project image" />
+           <div>
+            <img src={RPSN} alt="RSPN" />
             <h2 className='projectText name1'>Tech Stack</h2>
             <div className='techStack'>
               <img src="https://cdn-icons-png.flaticon.com/512/1199/1199124.png" alt="" />
               <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="" />
               <img src="https://cdn-icons-png.flaticon.com/512/1051/1051277.png" alt="" />
+               <img src="https://cdn-icons-png.flaticon.com/512/3334/3334886.png" alt="" /> 
+               <img height="50px" src="https://avatars.githubusercontent.com/u/54212428?s=200&v=4" alt="" />
             </div>
           </div>
 
           <div>
-            <h2 className='projectText name1'>Reliance-Digital Clone</h2>
-            <li className='projectUl'>Reliance is one of the most profitable companies in India, the largest publicly traded company in India by market capitalisation.</li>
-            <li className='projectUl'>Users can login and SignUp</li>
-            <li className='projectUl'>Users can add product to Cart</li>
-            <li className='projectUl'>User can see the products in the Home Page</li>
+            <h2 className='projectText name1'>R.S.P.N Vacation</h2>
+            <li className='projectUl'>R.S.P.N Vacation is clone of Tripoto website where a person can book tour and travel packages for multiple people.</li>
+            <li className='projectUl'>Users can Login and SignUp</li>
+            <li className='projectUl'>Users can see and add packages from Packages page.</li>
+            <li className='projectUl'>There is an Admin panel to add and remove packages.</li>
             <div className='p1Btn'>
-              <button><a href="https://reliance-app.netlify.app" target='_blank' >Live</a></button>
-              <button><a href="https://github.com/meshiv5/plastic-zephyr-2114" target='_blank' >View Code</a> </button>
+              <button><a href="https://ornate-marigold-ad611d.netlify.app/" target='_blank' >Live</a></button>
+              <button><a href="https://github.com/Nasirimam/picayune-cap-3141" target='_blank' >View Code</a> </button>
             </div>
           </div>
         </div>
-      </motion.div> */}
+      </motion.div> 
 
 
     </div>
