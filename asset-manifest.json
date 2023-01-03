@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.fef4fc07.css",
-    "main.js": "/static/js/main.10ddbc28.js",
+    "main.js": "/static/js/main.e3ebf93c.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
+    "static/media/R.P.S.N_Vacation.png": "/static/media/R.P.S.N_Vacation.29372e3dd42e9b556362.png",
     "static/media/Co-Schedule.png": "/static/media/Co-Schedule.c1cfcdf4937ea39753c9.png",
     "static/media/Email_Trap.png": "/static/media/Email_Trap.6d6b871fbc684da20b5e.png",
     "static/media/Pankaj_Singh_Resume.pdf": "/static/media/Pankaj_Singh_Resume.d26fe387e32531261083.pdf",
@@ -14,11 +15,11 @@
     "static/media/house (1).png": "/static/media/house (1).640d0b1e39b36fd2550c.png",
     "index.html": "/index.html",
     "main.fef4fc07.css.map": "/static/css/main.fef4fc07.css.map",
-    "main.10ddbc28.js.map": "/static/js/main.10ddbc28.js.map",
+    "main.e3ebf93c.js.map": "/static/js/main.e3ebf93c.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fef4fc07.css",
-    "static/js/main.10ddbc28.js"
+    "static/js/main.e3ebf93c.js"
   ]
 }
