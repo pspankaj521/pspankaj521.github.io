@@ -25,7 +25,20 @@ export default function Home() {
           </div>
           <div style={{gap: '10px',display:'flex', justifyContent:'center', alignItems:'center'}}>
             <img width='35px' height='35px' src={resume} alt="resume logo" />
-            <h2><a className='name1' target='_blank' rel='noreferrer' href={cv} download >Resume</a></h2>
+            <h2>
+              {/* <a className='name1' target='_blank' rel='noreferrer' href={cv} download >Resume</a> */}
+              <a className='name1'
+              style={{ textDecoration: "none", color: "#ff3d00" }}
+              // target="_blank"
+              // href="https://drive.google.com/file/d/1IipT1LQaDd7qkRpNkObyxbefUhl4gFeA/view?usp=share_link"
+              href={cv}
+              download="Pankaj_Singh_Resume"
+              onClick={()=>window.open("https://drive.google.com/file/d/1IipT1LQaDd7qkRpNkObyxbefUhl4gFeA/view?usp=share_link")}
+            >
+              Resume
+            </a>
+            
+            </h2>
           </div>
         </div>
       </div>
