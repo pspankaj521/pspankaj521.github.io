@@ -71,8 +71,11 @@ export default function Navbar() {
           <h2>
             <a
               style={{ textDecoration: "none", color: "#ff3d00" }}
-              target="_blank"
-              href="https://drive.google.com/file/d/1IipT1LQaDd7qkRpNkObyxbefUhl4gFeA/view?usp=share_link"
+              // target="_blank"
+              // href="https://drive.google.com/file/d/1IipT1LQaDd7qkRpNkObyxbefUhl4gFeA/view?usp=share_link"
+              href={resume}
+              download="Pankaj_Singh_Resume"
+              onClick={()=>window.open("https://drive.google.com/file/d/1IipT1LQaDd7qkRpNkObyxbefUhl4gFeA/view?usp=share_link")}
             >
               Resume
             </a>

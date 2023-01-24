@@ -362,7 +362,7 @@ font-family:cursive;
 
 .main_div{
   display: grid;
-  grid-template-columns: repeat(4,1fr);
+  grid-template-columns: repeat(5,1fr);
   width: 50%;
   gap: 20px;
   margin: auto;
@@ -504,7 +504,7 @@ font-family:cursive;
 #stats{
   display: flex;
   gap: 20px;
-  width: 70%;
+  width: 55%;
   margin: auto;
 }
 
