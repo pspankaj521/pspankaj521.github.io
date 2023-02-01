@@ -196,7 +196,7 @@ export default function Project() {
             <div className="p1Btn">
               <button>
                 <a
-                  href="https://ornate-marigold-ad611d.netlify.app/"
+                  href="https://rpsn-vacations.netlify.app/"
                   target="_blank"
                 >
                   Live
