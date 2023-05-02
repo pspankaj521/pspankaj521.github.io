@@ -57,7 +57,7 @@ export default function Skills() {
         </motion.div>
         <motion.div initial="hidden" whileInView="visible" variants={slidetop}>
           <img
-            src="https://opencollective-production.s3.us-west-1.amazonaws.com/ada636e0-395b-11ea-8ab7-b3f0317bbc7c.png"
+            src="https://v4.mui.com/static/logo.png"
             alt="material ui logo"
           />
           <h4>Material UI </h4>

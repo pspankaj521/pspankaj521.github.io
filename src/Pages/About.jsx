@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function About() {
   return (
-    <div id='about'>
+    <div id='user-detail-intro'>
       <div>
         <h1 className='name1'>ABOUT ME</h1>
         <div>

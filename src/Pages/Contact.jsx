@@ -9,15 +9,15 @@ export default function Contact() {
       <div>
         <div id='contactDetails'>
 
-          <div style={{width:'200px'}}>
+          <div id="contact-phone" style={{width:'200px'}}>
             <img  width='45px' height='45px' color="black" src="https://cdn-icons-png.flaticon.com/128/1034/1034182.png" />
             <h2 >+917683051322</h2>
           </div>
-          <div>
+          <div id="contact-email">
             <img width='50px' height='50px' src="https://cdn-icons-png.flaticon.com/128/831/831357.png" alt="email logo" />
             <h2><a style={{ paddingLeft:'10px' ,textDecoration: 'none',  color: 'black' }} target='_blank' >pankaj.singh2151994@gmail.com</a></h2>
           </div>
-          <div>
+          <div id="contact-github">
             <img width='50px' height='50px' src="https://cdn-icons-png.flaticon.com/128/3291/3291695.png" alt="github logo" />
             <h2> <a style={{ paddingLeft:'10px' , textDecoration: 'none',  color: 'black'}} target='_blank' href="https://github.com/pspankaj521">pspankaj521</a> </h2>
           </div>

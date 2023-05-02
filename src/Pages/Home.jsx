@@ -11,7 +11,7 @@ export default function Home() {
         </div>
         <div id='homeText'>
           <h2>Hi There!</h2>
-          <h1><span className='name1'>I am Pankaj Singh</span></h1>
+          <h1><span id='user-detail-name'>I am Pankaj Singh</span></h1>
           <div id='typewriter'>
             <Typewriter
               loop

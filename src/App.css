@@ -44,7 +44,7 @@ font-family:cursive;
   padding-left: 8vw;
 }
 
-.name1 {
+#user-detail-name {
   color: white;
   text-decoration: none;
   font-family:'Courier New', Courier, monospace;
@@ -301,7 +301,7 @@ font-family:cursive;
   color: white;
 }
 
-#about {
+#user-detail-intro {
  
   height: 100vh;
   background-size: cover;
@@ -314,7 +314,7 @@ font-family:cursive;
   font-family:'Courier New', Courier, monospace;
 }
 
-#about>div>h1 {
+#user-detail-intro>div>h1 {
   text-align: center;
   background-color: white;
   color:#1976d2;
@@ -322,7 +322,7 @@ font-family:cursive;
 }
 
 
-#about>div {
+#user-detail-intro>div {
   padding-top: 8vh;
   width: 70%;
   margin: auto;
@@ -330,7 +330,7 @@ font-family:cursive;
 
 }
 
-#about>div {
+#user-detail-intro>div {
   background-color: white;
   border-radius: 10px 10px 10px 10px;
   padding: 30px;
@@ -340,15 +340,15 @@ font-family:cursive;
 
 @media screen and (max-width: 900px) {
 
-  #about>div>h1 {
+  #user-detail-intro>div>h1 {
     font-size: 24px;
   }
 
-  #about>div>div>h2 {
+  #user-detail-intro>div>div>h2 {
     font-size: 18px;
   }
 
-  #about {
+  #user-detail-intro {
     padding-bottom: 10vh;
   }
 }
